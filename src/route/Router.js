@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "../components/Headers";
 import dashboard from "../components/Dashboard";
 
 const Router = () => {
