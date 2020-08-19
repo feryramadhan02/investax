@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Button, Modal, Dropdown, Menu } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import { addPhotos } from "../store/action/upload";

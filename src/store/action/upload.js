@@ -49,7 +49,6 @@ export const get = (i) => async dispatch => {
 }
 
 export const deletePhoto = (album, documents) => async  dispatch => {
-    console.log('al', album, 'doc', documents)
     try {
         await axios.delete(`${baseUrl}`
         [

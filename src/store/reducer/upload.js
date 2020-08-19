@@ -35,12 +35,12 @@ const uploads = (state = statefields, action) => {
             return {
                 ...state
             }
-        case "S":
+        case "Success":
             return {
                 ...state,
                 allphotos: state.allphotos.filter(item => item.album !== action.payload)
             }
-        case "F":
+        case "Failed":
             return {
                 ...state,
                 allphotos: action.payload
