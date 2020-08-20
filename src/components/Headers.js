@@ -70,12 +70,12 @@ const Header = () => {
                     >
                     </div>
                 </label>
-
                 <Dropdown overlay={menuAlbum}>
                     <Button>
                         Select Album <DownOutlined />
                     </Button>
                 </Dropdown>
+
             </Modal>
 
             <div className="header">
